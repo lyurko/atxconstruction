@@ -2,7 +2,7 @@
   "name": "atx-construction",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lyurko.github.io/",
+  "homepage": "https://lyurko.github.io/atxconstruction",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -17,6 +17,7 @@
     "deploy": "gh-pages -b master -d build"
   },
   "devDependencies": {
+    "flow-bin": "^0.76.0",
     "gh-pages": "^1.2.0"
   }
 }
