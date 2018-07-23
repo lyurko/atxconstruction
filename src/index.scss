@@ -1,0 +1,16 @@
+@import 'vars';
+html{
+  display:flex;
+  width:100vw;
+  height:100vh;
+  max-width:100vw;
+  & > body{
+    display:flex;
+    flex-flow:column;
+    flex:auto;
+    padding:0;
+    margin:0;
+    font-family: 'Roboto';
+    font-size: 14px;
+  }
+}
