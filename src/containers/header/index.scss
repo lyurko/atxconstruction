@@ -2,25 +2,34 @@ root {
   flex: 1;
 }
 header {
-  box-shadow: none;
-  padding-top: 25px;
-  background-color: #ffffff !important;
-  z-index: 1100;
+  padding: 25px 0;
+  z-index: 10;
   position: fixed;
   width: 100%;
+  top: 0;
+  transition: 0.75s;
 
-  .App-logo {
-    max-height: 100px;
+  &.transparent {
+    background-color: transparent !important;
+
+    .App-logo {
+      max-height: 150px;
+    }
   }
 
-  .menu {
-    margin-left: 20%;
+  &.white {
+    background-color: white !important;
+
+    .App-logo {
+      max-height: 100px;
+      width: 40%;
+    }
   }
 }
 .large {
   background-image: url('../../assets/header-large.jpg');
   transform: translate3d(0px, 0px, 0px);
-  height: 90vh;
+  height: 100vh;
   margin: 0;
   border: 0;
   display: flex;
