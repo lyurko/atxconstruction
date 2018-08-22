@@ -1,7 +1,10 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.a4cc8329.js",
-  "main.js.map": "static/js/main.a4cc8329.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.fa2636a5.css",
+  "main.css.map": "static/css/main.fa2636a5.css.map",
+  "main.js": "static/js/main.951b9381.js",
+  "main.js.map": "static/js/main.951b9381.js.map",
+  "static/media/atx_fabrications.png": "static/media/atx_fabrications.83008bb5.png",
+  "static/media/header-large.jpg": "static/media/header-large.d415284f.jpg",
+  "static/media/home.jpg": "static/media/home.f497f3b3.jpg",
+  "static/media/tools.jpg": "static/media/tools.98e7c5c4.jpg"
 }
