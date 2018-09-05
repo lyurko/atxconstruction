@@ -8,7 +8,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import Drawer from '@material-ui/core/Drawer';
-import List from '@material-ui/core/List';
 
 import logo from '../../assets/atx_fabrications.png';
 
@@ -107,12 +106,16 @@ export class Header extends Component<Props, State> {
             onKeyDown={this.toggleDrawer('left', false)}
           >
             <div>
-              <List>ATX Fabrications</List>
+              <Button href="http://www.atxfabrications.com">
+                ATX Fabrications
+              </Button>
             </div>
           </div>
         </Drawer>
         <section>
-          <div className="large" />
+          <div className="large">
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>
         </section>
         <section>
 

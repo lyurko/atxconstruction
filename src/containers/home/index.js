@@ -6,9 +6,14 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
 
 import HomeImg from '../../assets/home.jpg';
-import GCImg from '../../assets/tools.jpg';
+import DesignImg from '../../assets/tools.jpg';
+import CraneImg from '../../assets/cranes.jpg';
+import WeldingImg from '../../assets/welding.jpg';
+import DrillImg from '../../assets/drill.jpg';
+
 import './index.css';
 
 export function Home() {
@@ -36,6 +41,12 @@ export function Home() {
               Combined with our ability to communicate with full transparency between all our subcontractors and clients, we feel our services will create valued relationships which will last well beyond our projects.
               We look forward to starting a journey with your vision and building a positive and lasting relationship.
             </p>
+            <div className="email">
+              <p>
+                There's not much we can't do. Have an upcoming project?
+              </p>
+              <Button href="mailto:info@atxconstruction.com" target="_top">Contact Us</Button>
+            </div>
           </Grid>
         </Grid>
       </section>
@@ -48,10 +59,10 @@ export function Home() {
           alignItems='center'
           justify='center'
         >
-          <Grid item sx={12} sm={6} lg={4}>
+          <Grid item sx={12} sm={6} lg={4} align="center">
             <Card className="card">
               <CardMedia
-                image={HomeImg}
+                image={DesignImg}
                 title="Pre-Construction Services"
                 className="media"
               />
@@ -65,10 +76,10 @@ export function Home() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item sx={12} sm={6} lg={4}>
+          <Grid item sx={12} sm={6} lg={4} align="center">
             <Card className="card">
               <CardMedia
-                image={GCImg}
+                image={HomeImg}
                 title="General Contractors"
                 className="media"
               />
@@ -81,10 +92,10 @@ export function Home() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item sx={12} sm={6} lg={4}>
+          <Grid item sx={12} sm={6} lg={4} align="center">
             <Card className="card">
               <CardMedia
-                image={GCImg}
+                image={CraneImg}
                 title="Construction Management at Risk CMAR"
                 className="media"
               />
@@ -97,10 +108,10 @@ export function Home() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item sx={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={6} lg={4} align="center">
             <Card className="card">
               <CardMedia
-                image={GCImg}
+                image={WeldingImg}
                 title="Design Build"
                 className="media"
               />
@@ -119,17 +130,18 @@ export function Home() {
       </section>
       <section id="contact">
         <h1>Contact Us</h1>
-        <Grid container xs={12} alignItems="center" justify="center">
-          <Grid item xs={6} align="center">
+        <Grid container alignItems="center" justify="center">
+          <Grid item xs={12} sm={6} align="center">
             <p>ATX Construction</p>
             <p>1003 Rio Grande Street</p>
             <p>Austin, Texas 78701</p>
+            <a href="mailto:info@atxconstruction.com" target="_top">info@atxconstruction.com</a>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} sm={6} align="center">
             <iframe
               title="map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.7100365596502!2d-97.74992788487947!3d30.273841981799404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b50c99e10491%3A0x7f533588796bd16a!2s1003+Rio+Grande+St%2C+Austin%2C+TX+78701!5e0!3m2!1sen!2sus!4v1533601014545"
-              width="600" height="450" frameBorder="0" allowFullScreen></iframe>
+              width="400" height="450" frameBorder="0" allowFullScreen></iframe>
           </Grid>
         </Grid>
 
