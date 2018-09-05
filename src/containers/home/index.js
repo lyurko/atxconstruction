@@ -12,7 +12,6 @@ import HomeImg from '../../assets/home.jpg';
 import DesignImg from '../../assets/tools.jpg';
 import CraneImg from '../../assets/cranes.jpg';
 import WeldingImg from '../../assets/welding.jpg';
-import DrillImg from '../../assets/drill.jpg';
 
 import './index.css';
 
