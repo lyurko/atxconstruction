@@ -30,21 +30,21 @@ export function Home() {
             <p>
               In 2017 two partners set out to execute an idea they believed would bring a new vision of value and trust in the ever-growing development all around our communities.
               By combining their vast experience in construction they set out with a vision which embraced the growth of relationships and the importance of accepting nothing less than excellent craftsmanship
-              in all projects. We strives to build trust and satisfaction with all our clients by maintaining the highest accountability within the ATX Construction family and its valued partners.
+              in all projects. We strive to build trust and satisfaction with all our clients by maintaining the highest accountability within the ATX Construction family and its valued partners.
               We believe all clients deserve our absolute best and will work diligently to ensure the entire process from start to completion is held to the highest standards and look forward to repeat business relationships.
             </p>
             <p>
-              We take our clients vision and make it our goal to surpass expectations with our meticulous work ethics and carefully focusing on every detail every step of the way
-              from the start to finish. Our pride does not only lie with our craftsmanship, but with our inspirational creativity on every carefully designed project to uphold functionality
+              We take our clients vision and make it our goal to surpass expectations with our meticulous work ethic and careful focus on every detail, every step of the way.
+              Our pride does not only lie with our craftsmanship, but with our inspirational creativity on every carefully designed project to uphold functionality
               and aesthetics while diligently maintaining budget costs as planned. Most importantly, ATX Construction strictly manages safety standards on all project sites.
               Combined with our ability to communicate with full transparency between all our subcontractors and clients, we feel our services will create valued relationships which will last well beyond our projects.
               We look forward to starting a journey with your vision and building a positive and lasting relationship.
             </p>
             <div className="email">
               <p>
-                There's not much we can't do. Have an upcoming project?
+                We look forward to hearing from you!
               </p>
-              <Button href="mailto:info@atxconstruction.com" target="_top">Contact Us</Button>
+              <Button className="btn" href="mailto:info@atxconstruction.com" target="_top">Contact Us</Button>
             </div>
           </Grid>
         </Grid>
