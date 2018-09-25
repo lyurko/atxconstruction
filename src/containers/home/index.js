@@ -49,7 +49,25 @@ export function Home() {
           </Grid>
         </Grid>
       </section>
-      <section id="services">
+      <section className="safety" id="safety">
+        <Grid
+          container
+          spacing={24}
+          alignItems='center'
+          justify='center'
+        >
+          <Grid item>
+            <h1>Safety</h1>
+            <ul>
+              <li>OSHA</li>
+              <li>Safety Training/Education</li>
+              <li>Risk Management/Analysis</li>
+              <li>Product Warranties/Inspections</li>
+            </ul>
+          </Grid>
+        </Grid>
+      </section>
+      <section className="services" id="services">
         <h1>Services</h1>
         <Grid
           container
@@ -63,14 +81,15 @@ export function Home() {
               <CardMedia
                 image={DesignImg}
                 title="Pre-Construction Services"
-                className="media"
-              />
-              <CardContent>
+                className="media">
                 <Typography gutterBottom variant="headline" component="h2">
                   Pre-Construction Services
                 </Typography>
+              </CardMedia>
+              <CardContent>
                 <Typography component="p">
-                  Budgeting, Lead Time Procurement, Cost Reduction Planning, Scheduling
+                  <p>Budgeting, Lead Time Procurement</p>
+                  <p>Cost Reduction Planning & Scheduling</p>
                 </Typography>
               </CardContent>
             </Card>
@@ -80,12 +99,12 @@ export function Home() {
               <CardMedia
                 image={HomeImg}
                 title="General Contractors"
-                className="media"
-              />
-              <CardContent>
+                className="media">
                 <Typography gutterBottom variant="headline" component="h2">
                   General Contracting
                 </Typography>
+              </CardMedia>
+              <CardContent>
                 <Typography component="p">
                 </Typography>
               </CardContent>
@@ -96,12 +115,12 @@ export function Home() {
               <CardMedia
                 image={CraneImg}
                 title="Construction Management at Risk CMAR"
-                className="media"
-              />
-              <CardContent>
+                className="media">
                 <Typography gutterBottom variant="headline" component="h2">
                   Construction Management at Risk CMAR
                 </Typography>
+              </CardMedia>
+              <CardContent>
                 <Typography component="p">
                 </Typography>
               </CardContent>
@@ -112,15 +131,15 @@ export function Home() {
               <CardMedia
                 image={WeldingImg}
                 title="Design Build"
-                className="media"
-              />
-              <CardContent>
+                className="media">
                 <Typography gutterBottom variant="headline" component="h2">
                   Design Build
                 </Typography>
+              </CardMedia>
+              <CardContent>
                 <Typography component="p">
-                  Optimize cost and functionality from start to end
-                  Work directly with design teams
+                  <p>Optimize cost and functionality from start to end</p>
+                  <p>Work directly with design teams</p>
                 </Typography>
               </CardContent>
             </Card>
