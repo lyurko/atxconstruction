@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.ba9a1472.chunk.css",
-    "main.js": "./static/js/main.02581e18.chunk.js",
-    "main.js.map": "./static/js/main.02581e18.chunk.js.map",
+    "main.css": "./static/css/main.2ad320ec.chunk.css",
+    "main.js": "./static/js/main.3a355e9a.chunk.js",
+    "main.js.map": "./static/js/main.3a355e9a.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.d50999de.js",
     "runtime-main.js.map": "./static/js/runtime-main.d50999de.js.map",
-    "static/js/2.42d805d7.chunk.js": "./static/js/2.42d805d7.chunk.js",
-    "static/js/2.42d805d7.chunk.js.map": "./static/js/2.42d805d7.chunk.js.map",
+    "static/js/2.6997c830.chunk.js": "./static/js/2.6997c830.chunk.js",
+    "static/js/2.6997c830.chunk.js.map": "./static/js/2.6997c830.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.ba9a1472.chunk.css.map": "./static/css/main.ba9a1472.chunk.css.map",
-    "static/js/2.42d805d7.chunk.js.LICENSE.txt": "./static/js/2.42d805d7.chunk.js.LICENSE.txt",
+    "static/css/main.2ad320ec.chunk.css.map": "./static/css/main.2ad320ec.chunk.css.map",
+    "static/js/2.6997c830.chunk.js.LICENSE.txt": "./static/js/2.6997c830.chunk.js.LICENSE.txt",
     "static/media/1.035b4c55.jpg": "./static/media/1.035b4c55.jpg",
     "static/media/2.202e9258.jpg": "./static/media/2.202e9258.jpg",
     "static/media/3.3d512be6.jpg": "./static/media/3.3d512be6.jpg",
     "static/media/4.61770a11.jpg": "./static/media/4.61770a11.jpg",
     "static/media/5.eec15939.jpg": "./static/media/5.eec15939.jpg",
+    "static/media/Sorek0.1244d183.jpg": "./static/media/Sorek0.1244d183.jpg",
+    "static/media/Sorek1.4ca906d2.jpg": "./static/media/Sorek1.4ca906d2.jpg",
+    "static/media/Sorek2.2924326d.jpg": "./static/media/Sorek2.2924326d.jpg",
+    "static/media/Sorek3.42783c7c.jpg": "./static/media/Sorek3.42783c7c.jpg",
     "static/media/atx_construction.44a689fd.png": "./static/media/atx_construction.44a689fd.png",
     "static/media/cranes.ccc92f21.jpg": "./static/media/cranes.ccc92f21.jpg",
     "static/media/facebook.4768fdc1.svg": "./static/media/facebook.4768fdc1.svg",
@@ -31,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d50999de.js",
-    "static/js/2.42d805d7.chunk.js",
-    "static/css/main.ba9a1472.chunk.css",
-    "static/js/main.02581e18.chunk.js"
+    "static/js/2.6997c830.chunk.js",
+    "static/css/main.2ad320ec.chunk.css",
+    "static/js/main.3a355e9a.chunk.js"
   ]
 }
